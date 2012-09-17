@@ -4,8 +4,9 @@ A backdoor for Tornado applications
 
 Having a Python interative interpreter running alongside you application
 can come useful for debugging. This module runs a Python interactive
-interpreter over a TCP connection, where multiple clients can connect and
-which does not block the server from handling requests.
+interpreter over a TCP connection, acting as a server, where multiple
+clients can connect and which does not block the server from
+handling other requests.
 
 Source code is on `GitHub <http://github.com/saghul/tornado-backdoor>`_.
 
